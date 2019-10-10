@@ -1,0 +1,107 @@
+
+* {
+    margin: 0 auto;
+
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("/assets/images/criss-cross.png")
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: #cccccc solid 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 101;
+}
+
+header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.name {
+    float: left;
+    padding: 10px 0;
+    background-color: #4aa5;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    
+    position: relative;
+}
+
+nav a:hover {
+    color: #4aa5;
+}
+
+nav a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #4aa5;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 205ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+
+}
+
+footer {
+    background-color: #666;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 101;
+    bottom: 0;
+    border-top: #4aa5 10px solid;
+}
+
+footer p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size 11px;
+}
+
+.foot {
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center; 
+}
+
+
