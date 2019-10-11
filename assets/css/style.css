@@ -4,13 +4,14 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(/images/criss-cross.png);
+    background-image: url(/assets/images/criss-cross.png)
 }
 .wrapper {
     height: 1000%;
     width: 60%;
     margin: 0 auto;
     padding-top: 180px;
+    position: relative;
     
     
 }
@@ -131,3 +132,18 @@ footer p {
 }
 
 
+.contact-form {
+    clear: both;
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    position: absolute;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: left;
+
+}
