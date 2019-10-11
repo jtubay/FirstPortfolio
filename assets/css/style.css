@@ -9,13 +9,30 @@ body {
 }
 .wrapper {
 
-    width: 60%;
-    margin: 0 auto;
-    padding-top: 100px;
-    background: white;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    /* width: 60%; */
+    /* margin: 0 auto; */
+    /* padding-top: 100px; */
+    /* background: white; */
+    /* padding-bottom: 50px; */
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+
+    clear: both;
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+   position: absolute;
+   left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
     
     
 }
@@ -143,10 +160,7 @@ footer p {
     background: #f1f1f1;
    position: absolute;
    left: 50%;
-    
-    
     transform: translate(-50%, 50%);
-    
     padding: 30px 40px;
     box-sizing: border-box;
     border-radius: 8px;
