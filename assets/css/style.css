@@ -171,10 +171,11 @@ footer p {
 .contact-form h1 {
     margin-top: 0;
     font-weight: 200px;
+    color: #4aa;
 }
 .txtb {
     border: 1px solid gray;
-    margin: 8px 0;
+    /* margin: 8px 0; */
     padding: 12px 18px;
     border-radius: 8px;
 
