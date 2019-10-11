@@ -1,12 +1,41 @@
+ * {
+     margin: 0 auto;
+ }
 
-* {
-    margin: 0 auto;
-
-}
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url("/assets/images/criss-cross.png")
+    background-image: url(/images/criss-cross.png);
+}
+.wrapper {
+    height: 1000%;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 180px;
+    
+    
+}
+h1 {
+    padding-bottom: 20px;;
+}
+.me {
+    border-bottom: solid #ccc 2px;
+    margin-bottom: 20px;
+    color: #4aa;
+}
+img {
+    float: left;
+    width: 23.3%;
+    height: 150px;
+    margin-right: 40px;
+}
 
+.stuff {
+    float: left;
+    width: 66.6%;
+}
+.content2 {
+    clear: both;
+    margin-top: 190px;
 }
 
 .container {
@@ -14,32 +43,29 @@ body {
     margin: 0 auto;
 
 }
-
 header {
     background-color: #ffffff;
-    border-bottom: #cccccc solid 10px;
+    border-bottom: #cccccc solid 3px;
     position: fixed;
     width: 100%;
     z-index: 101;
 }
-
 header::after {
     content: "";
     display: block;
     clear: both;
 }
-
 .name {
     float: left;
     padding: 10px 0;
-    background-color: #4aa5;
+    background-color: #4aa;
     padding-left: 10px;
     padding-right: 10px;
     color: white;
 }
-
 nav {
     float: right;
+    
 }
 
 nav ul {
@@ -90,7 +116,7 @@ footer {
     width: 100%;
     z-index: 101;
     bottom: 0;
-    border-top: #4aa5 10px solid;
+    border-top: #4aa 10px solid;
 }
 
 footer p {
