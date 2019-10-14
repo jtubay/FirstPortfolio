@@ -33,7 +33,7 @@ body {
 h1 {
     padding-bottom: 20px;;
 }
-.me {
+.info {
     border-bottom: solid #ccc 2px;
     margin-bottom: 20px;
     color: #4aa;
@@ -178,7 +178,7 @@ footer p {
    background-color:white;
     height: 520px;
     width: 820px;
-    margin-top: 7%;
+    margin-top: 10%;
     position: absolute; 
     background: #f1f1f1;
    position: absolute;
